@@ -1,1 +1,138 @@
-t
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Naturaleza</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      background: linear-gradient(180deg, #0a0f2c, #091f3d);
+      font-family: "Segoe UI", Arial, sans-serif;
+      color: #e0e6f0;
+    }
+
+    header {
+      padding: 80px 20px 40px;
+    }
+
+    h1 {
+      font-size: 5rem;
+      color: #19d1c8;
+      text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7);
+      margin: 0;
+      letter-spacing: 2px;
+    }
+
+    h2.subtitulo {
+      font-size: 2rem;
+      color: #f2cf0c;
+      margin-top: 10px;
+      font-weight: normal;
+    }
+
+    .marquee {
+      background-color: #182848;
+      color: #f2cf0c;
+      font-size: 1.5rem;
+      font-weight: 600;
+      padding: 15px 0;
+      overflow: hidden;
+      white-space: nowrap;
+      box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.3);
+      animation: scroll 15s linear infinite;
+    }
+
+    @keyframes scroll {
+      from {
+        transform: translateX(100%);
+      }
+      to {
+        transform: translateX(-100%);
+      }
+    }
+
+    section.info {
+      background-color: rgba(255, 255, 255, 0.05);
+      border-radius: 15px;
+      padding: 40px;
+      margin: 60px auto;
+      width: 85%;
+      max-width: 900px;
+      text-align: left;
+      box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+    }
+
+    .info h2 {
+      font-size: 2rem;
+      color: #19d1c8;
+      text-decoration: underline;
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    .info p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      text-align: justify;
+      color: #e8ebf0;
+    }
+        .info p2 {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      text-align: justify;
+      color: #e8ebf0;
+    }
+
+    footer {
+      margin: 40px 0;
+      font-size: 0.9rem;
+      opacity: 0.6;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Cambio climatico</h1>
+    <h2 class="subtitulo">¿Que puedes hacer tu?</h2>
+  </header>
+
+  <div class="marquee">La naturaleza necesita tu ayuda</div>
+
+  <section class="info">
+    <h2>Todo sobre Ublot</h2>
+    <p>
+      El cambio climatico es un problema grande en nuestra sociedad y muchas veces nos pregunatamos 
+      si podemos hacer algo al respecto, pues aquí hay algunos consejos para ayudar a frenar el cambio climatico:
+      1. Utiliza menos agua: no tardes tanto en la ducha, utiliza el modo eco en la labadora y el friegaplatos, busca grifos que goteen y dilo a un adulto...
+      2. Reusa, Reduce, Recicla: en vez de comprar botellas de agua de plástico compra de metal, reusa envases de plástico,en el recreo tirad las cosas a la basura INCLUSO SI ESTAS JUGANDO AL FÚTBOL
+      3. Apaga las luces: no tengas las luces encendidas si no las necesita, utiliza bombillas led, convince a un adulto a que utiliceis energía sostenible
+      4. Crea conciencia: comparte esta página en grupos de whattsapp y mandala a amigos, dile a la gente sobre la importancia de el medioambiente.
+
+      info:Valoramos muy positivamente que el Defensor del Pueblo haya presentado ante el Tribunal Constitucional un recurso contra las enmiendas introducidas en la Ley de Desperdicio Alimentario para sacar al lobo del LESPRE, esquivando el procedimiento legal establecido para la catalogación de las especies protegidas.
+
+En esta reunión con el Defensor del Pueblo, Ángel Gabilondo, hemos mostrado nuestra profunda preocupación por la rebaja en la protección del lobo ibérico, aprobada por el Congreso de los Diputados sin ningún tipo de respaldo científico.
+
+Le hemos trasladado evidencias actualizadas sobre la situación de la especie, cuya población se encuentra estancada en España y cuyo futuro sigue en riesgo. 
+
+Valoramos muy positivamente que el Defensor del Pueblo haya presentado ante el Tribunal Constitucional un recurso contra las enmiendas introducidas en la Ley de Desperdicio Alimentario para sacar al lobo del LESPRE, esquivando el procedimiento legal establecido para la catalogación de las especies protegidas. Dicha maniobra legislativa, que ha abierto la puerta a las matanzas de lobos en España, respondía exclusivamente a intereses políticos, sin basarse en datos actualizados sobre la población de la especie y sin permitir la participación de la sociedad. 
+
+Durante el encuentro, hemos comentado con el Defensor del Pueblo los resultados del último censo nacional del lobo, elaborado por las comunidades autónomas y coordinado por el MITECO, que confirman la exigua recuperación de la especie en la última década, de apenas un 1% anual.  
+
+También hemos trasladado la evidencia científica sobre el estado de conservación desfavorable de la especie, pues las 333 manadas actuales están lejos del umbral de seguridad señalado por los científicos -500 manadas- para permitir su viabilidad a largo plazo.
+
+Entre otros documentos, hemos compartido con el Defensor del Pueblo la carta abierta firmada por más de 100 científicos y científicas de reconocido prestigio en la conservación de la biodiversidad, en la que solicitaban recuperar la protección del lobo. 
+
+Matar lobos no resolverá los conflictos con la ganadería extensiva, como se ha demostrado en el pasado. La única alternativa eficaz es el impulso de políticas de coexistencia: incluyendo apoyo público a las medidas de prevención de ataques, indemnizaciones rápidas y justas, y un diálogo constructivo entre todos los sectores implicados. 
+
+Seguiremos agotando todas las vías legales disponibles para detener la caza indiscriminada del lobo y asegurar la recuperación de la especie, que juega un papel ecológico insustituible y es esencial para garantizar la salud de los ecosistemas.      
+    </p>
+    <p2>¿Tienes dudas o sugerencias? manda un email a: juanito.olmedilla@icloud.com</p2>
+  </section>
+  <section class="demo">
+  <h2>Realmente interesado?</h2>
